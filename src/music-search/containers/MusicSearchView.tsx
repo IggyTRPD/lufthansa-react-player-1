@@ -22,7 +22,7 @@ const albumsMock: AlbumView[] = [
 */
 
 
-export const MusicSearchView = (props: Props) => {
+export const MusicSearchView = (props: Props) => {        
     const [{ isLoading, message, results }, setQuery] = useFetch(fetchAlbums)
 
     // return <AbstractSearchView x={...} y={...} ... />
